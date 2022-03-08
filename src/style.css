@@ -1,4 +1,121 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Indie Flower", cursive;
+  font-family: "Paprika", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Spline Sans", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.contaner {
+  background-color: #d8e2dc;
+  height: 100vh;
+}
+
+.hero {
+  width: 100%;
+  box-shadow: 5px 6px 18px #203a43;
+  background: #0f2027;
+  background: linear-gradient(to right, #305c6e, #203a43, #0f2027);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.hero .heder {
+  padding: 1.5rem;
+  font-size: 2.6rem;
+  color: rgba(255, 255, 255, 0.877);
+}
+
+.scoreContaner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+}
+
+.recentScore {
+  color: #457b9d;
+}
+
+.recentScoreHeder {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.recentScoreHeder h1 {
+  font-size: 3rem;
+}
+
+.recentScoreHeder button {
+  padding: 10px 15px;
+  font-size: 1.7rem;
+  border: none;
+  border-radius: 3px;
+  color: #457b9d;
+  background-color: #fff;
+}
+
+.theForm button {
+  width: 8rem;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 3px;
+  color: #457b9d;
+  background-color: #fff;
+  align-self: end;
+}
+
+.theForm button:hover {
+  color: rgb(231, 31, 31);
+}
+
+.recentScoreHeder button:hover {
+  color: rgb(231, 31, 31);
+}
+
+.scorse {
+  margin-top: 24px;
+  width: 100%;
+  border: 2px solid #457b9d;
+}
+
+.formContaner {
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+.form {
+  font-size: 1.7rem;
+  text-align: right;
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+}
+
+.theForm {
+  display: flex;
+  gap: 0.8rem;
+  flex-direction: column;
+}
+
+.form h1 {
+  color: #457b9d;
+}
+
+.theForm input {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+}
+
+.theForm input:focus {
+  outline: none;
 }
