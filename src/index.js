@@ -1,8 +1,7 @@
 import './style.css';
 import addToStorage from './addData.js';
-// const data = JSON.parse(localStorage.getItem('data')) || [];
-const form = document.querySelector('.theForm');
-form.addEventListener('submit', (e) => {
+const addForm = document.querySelector('.theForm');
+addForm.addEventListener('submit', (e) => {
   e.preventDefault();
   const name = form.querySelector('.name');
   const score = form.querySelector('.score');
