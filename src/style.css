@@ -64,7 +64,8 @@
 .theForm button {
   width: 8rem;
   padding: 10px 15px;
-  font-size: 1rem;
+  font-weight: 500;
+  font-size: 1.3rem;
   border: none;
   border-radius: 3px;
   color: #457b9d;
@@ -73,7 +74,7 @@
 }
 
 .theForm button:hover {
-  color: rgb(231, 31, 31);
+  color: rgba(36, 160, 36, 0.986);
 }
 
 .recentScoreHeder button:hover {
