@@ -55,9 +55,9 @@
 .recentScoreHeder button {
   padding: 10px 15px;
   font-size: 1.7rem;
-  border: none;
   border-radius: 3px;
   color: #457b9d;
+  border: 2px solid rgb(231, 31, 31);
   background-color: #fff;
 }
 
@@ -66,21 +66,19 @@
   padding: 10px 15px;
   font-weight: 500;
   font-size: 1.3rem;
-  border: none;
   border-radius: 3px;
   color: #457b9d;
   background-color: #fff;
+  border: 2px solid rgba(36, 160, 36, 0.986);
   align-self: end;
 }
 
 .theForm button:hover {
   color: rgba(36, 160, 36, 0.986);
-  border: 2px solid rgba(36, 160, 36, 0.986);
 }
 
 .recentScoreHeder button:hover {
   color: rgb(231, 31, 31);
-  border: 2px solid rgb(231, 31, 31);
 }
 
 .scorse {
