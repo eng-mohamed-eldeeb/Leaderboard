@@ -8,10 +8,41 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Paprika&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Spline+Sans:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
     <title>Leaderboard</title>
   </head>
   <body>
-      <span class="clearSpan">Clear all completed</span>
+    <section class="contaner">
+      <section class="hero">
+        <div class="heder">
+          <h1>Leaderboard</h1>
+        </div>
+      </section>
+      <section class="scoreContaner">
+        <div class="recentScore">
+          <div class="recentScoreHeder">
+            <h1>Recent Score</h1>
+            <button type="button" class="refresh">Refresh</button>
+          </div>
+          <div class="scorse"><ul class="displayUl"></ul></div>
+        </div>
+        <div class="formContaner">
+        <div class="form">
+          <h1>Add your score</h1>
+          <form class="theForm">
+            <input class="name" type="text" placeholder="Your name" required>
+            <input class="score" type="text" placeholder="Your score" required>
+            <button type="submit" class="submitBtn">Submit</button>
+          </form>
+        </div>
+      </div>
+      </section>
     </section>
+    <span class="clearSpan"></span>
   </body>
 </html>
