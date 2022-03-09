@@ -75,10 +75,12 @@
 
 .theForm button:hover {
   color: rgba(36, 160, 36, 0.986);
+  border: 2px solid rgba(36, 160, 36, 0.986);
 }
 
 .recentScoreHeder button:hover {
   color: rgb(231, 31, 31);
+  border: 2px solid rgb(231, 31, 31);
 }
 
 .scorse {
