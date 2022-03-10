@@ -1,12 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Book list
+# Leaderboard
 
 
-> This web app is about making a book list
+> This web app is about saving scores
 
 > This site contans
->- An add form that adds the todos
+>- An add form that adds the score
 
 ![screenshot](./img/Screenshot.png)
 
@@ -15,7 +15,7 @@ Additional description about the project and its features.
 
 ## live demo
 
-- project: (https://eng-mohamed-eldeeb.github.io/todo_list/)
+- project: (https://eng-mohamed-eldeeb.github.io/Leaderboard/)
 
 ## Install
 
