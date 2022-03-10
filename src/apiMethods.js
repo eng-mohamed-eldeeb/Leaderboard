@@ -11,14 +11,15 @@ const addScore = async (username, score) => {
   });
 };
 
-const getScores = async () => (
-  fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/RbZstIDnGYdGTsk3sKDW/scores', {
+const getScores = async () => {
+  const theReturn = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/RbZstIDnGYdGTsk3sKDW/scores', {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
     },
   }).then((response) => response.json())
     .then((data) => data.result)
-);
+    return theReturn;
+};
 
 export { addScore, getScores };
