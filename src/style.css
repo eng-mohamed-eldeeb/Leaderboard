@@ -73,6 +73,31 @@
   align-self: end;
 }
 
+.scores > ul {
+  margin-top: 10px;
+  border: 2px solid rgb(36, 152, 160);
+  list-style: none;
+  max-height: 350px;
+  overflow-y: scroll;
+}
+
+.scores > ul::-webkit-scrollbar {
+  width: 0.3em;
+}
+
+.scores > ul::-webkit-scrollbar-thumb {
+  width: 100%;
+  background-color: rgb(154, 183, 192);
+}
+
+.scores > ul li {
+  padding: 0.6em;
+}
+
+.scores > ul li:nth-child(even) {
+  background-color: rgba(154, 183, 192, 0.418);
+}
+
 .theForm button:hover {
   color: rgba(36, 160, 36, 0.986);
 }
