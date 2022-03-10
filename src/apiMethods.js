@@ -18,8 +18,8 @@ const getScores = async () => {
       'Content-Type': 'application/json',
     },
   }).then((response) => response.json())
-    .then((data) => data.result)
-    return theReturn;
+    .then((data) => data.result);
+  return theReturn;
 };
 
 export { addScore, getScores };
